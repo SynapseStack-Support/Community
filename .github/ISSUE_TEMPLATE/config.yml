@@ -6,9 +6,9 @@ contact_links:
   - name: 💬 Community Discussions
     url: https://github.com/SynapseStack-Support/Community/discussions
     about: General questions, ideas, and community discussions
-  - name: 🐛 Troubleshooting Help
+  - name: 🔧 Troubleshooting Help
     url: https://github.com/SynapseStack-Support/Community/discussions/categories/troubleshooting
-    about: Get community help with issues and problem-solving
+    about: Get community help solving technical issues
   - name: 🔒 Security Issues
     url: mailto:security@synapsestack.com
     about: Report security vulnerabilities privately

@@ -18,7 +18,20 @@ Welcome to SynapseStack support! Choose the right option for your needs:
 
 1. **[Documentation](https://docs.synapsestack.com)** - Installation guides, configuration, troubleshooting
 2. **[Existing Issues](../../issues)** - Someone might have already reported your issue
-3. **[Discussions](../../discussions)** - Community Q&A and general questions
+3. **[Community Discussions](../../discussions)** - Community Q&A and general questions
+
+## 💬 Community Discussions
+
+**Join the conversation!** Our discussions are organized by topic:
+
+| Category | Purpose | Link |
+|----------|---------|------|
+| 🙋 **Q&A** | Questions about installation, configuration, and usage | [Ask Questions](../../discussions/categories/q-a) |
+| 🔧 **Troubleshooting** | Get community help solving technical issues | [Get Help](../../discussions/categories/troubleshooting) |
+| 💬 **General** | Open discussions about SynapseStack and enterprise AI | [General Chat](../../discussions/categories/general) |
+| 💡 **Ideas** | Feature suggestions and brainstorming | [Share Ideas](../../discussions/categories/ideas) |
+| 🏆 **Show and Tell** | Share your SynapseStack deployments and success stories | [Show Off](../../discussions/categories/show-and-tell) |
+| 📚 **Documentation** | Feedback on guides, docs, and help content | [Doc Feedback](../../discussions/categories/documentation) |
 
 ## ⚡ Quick Help
 
@@ -109,7 +122,8 @@ SynapseStack is an enterprise-grade AI stack management system that provides:
 - 📧 **Email**: support@synapsestack.com
 - 🌐 **Website**: https://synapsestack.com  
 - 📚 **Documentation**: https://docs.synapsestack.com
-- 💬 **Discussions**: Use GitHub Discussions for general questions
+- 💬 **Community**: Join our [Discussions](../../discussions) for Q&A and general questions
+- 📢 **Updates**: Follow [Announcements](../../discussions/categories/announcements) for latest news
 
 ---
 
