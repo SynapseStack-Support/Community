@@ -1,0 +1,71 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement for SynapseStack
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✨ Feature Request
+        
+        Have an idea to make SynapseStack better? I'd love to hear it!
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Feature Type
+      description: What kind of enhancement are you suggesting?
+      options:
+        - "🎯 New Core Feature"
+        - "🔧 Improvement to Existing Feature"
+        - "🎨 User Interface Enhancement"
+        - "⚡ Performance Improvement"
+        - "🛡️ Security Enhancement"
+        - "📚 Documentation/Help"
+        - "🔌 Integration with External Service"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case or problem this feature would address
+      placeholder: "I'm always frustrated when... or I need to be able to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe what you'd like to see implemented
+      placeholder: "I would like SynapseStack to..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: How important is this to you?
+      options:
+        - "🔥 Critical - I really need this"
+        - "📈 High - Would significantly improve my workflow"
+        - "👍 Medium - Nice to have"
+        - "💡 Low - Just an idea"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What workarounds or alternatives have you considered?
+      placeholder: "Currently I work around this by..."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Screenshots, mockups, links, or examples that help explain the request
+      placeholder: "Any other details or examples..."

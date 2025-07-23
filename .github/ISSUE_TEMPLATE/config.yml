@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://docs.synapsestack.com
+    about: Check the official documentation for guides and troubleshooting
+  - name: 💬 Discussions
+    url: https://github.com/yourusername/synapsestack/discussions
+    about: General questions, ideas, and community discussions
+  - name: 🔒 Security Issues
+    url: mailto:security@synapsestack.com
+    about: Report security vulnerabilities privately

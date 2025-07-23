@@ -1,0 +1,79 @@
+name: 🙋‍♂️ Support Question
+description: Get help with installation, configuration, or usage
+title: "[Support]: "
+labels: ["question", "support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙋‍♂️ Support Question
+        
+        Need help with SynapseStack? I'm here to help! Please provide details about what you're trying to do.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Support Category
+      description: What kind of help do you need?
+      options:
+        - "📦 Installation & Setup"
+        - "⚙️ Configuration"
+        - "🖥️ Web Interface Usage"
+        - "🤖 AI Models & Ollama"
+        - "📊 Monitoring & Performance"
+        - "🔧 Troubleshooting"
+        - "🔒 Security & Access"
+        - "💾 Backup & Recovery"
+        - "🆙 Updates & Upgrades"
+        - "❓ General Usage Question"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What specifically do you need help with?
+      placeholder: "I'm trying to... but I'm having trouble with..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      description: What steps have you already attempted?
+      placeholder: |
+        - Checked the documentation at...
+        - Tried running...
+        - Looked at logs and saw...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: System Details
+      description: Your SynapseStack setup information
+      placeholder: |
+        - SynapseStack Version: [e.g. v1.0.0]
+        - OS: [e.g. Ubuntu 22.04]
+        - Hardware: [e.g. 8-core CPU, 32GB RAM]
+        - Installation: [e.g. .deb package, static binary]
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Relevant Configuration
+      description: Any relevant parts of your synapsestack.yaml (remove sensitive info)
+      placeholder: |
+        ```yaml
+        # Paste relevant config sections here...
+        ```
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Anything else that might help provide better support
+      placeholder: "Screenshots, error messages, or other context..."
