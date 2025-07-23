@@ -111,7 +111,7 @@ gh label create "hardware: cpu-only" --color "006b75" --description "CPU-only de
 
 ## 🔄 Label Management Workflow
 
-### For Solo Developer Workflow:
+### For Development Workflow:
 
 1. **New Issue** → Auto-labeled by template + `status: triage`
 2. **Review** → Add component, platform, priority labels
